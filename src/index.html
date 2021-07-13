@@ -13,7 +13,9 @@
         <section class="bg-questions bg-light">
             <div class="container">
                 <h1 class="title">
-                    <span class="text-primary">Когнитивные<br>
+                    <span class="text-primary">
+                        Когнитивные
+                        <br>
                         искажения
                     </span>
                     <br>
@@ -45,7 +47,7 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="bg-light">
             <div class="container">
                 <h2>
                     Что же это такое, когнитивные искажения?
@@ -57,18 +59,56 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class="bg-white">
             <div class="container">
-                <h2>
-                    Хотите узнать больше? Подпишитесь на обновления
-                </h2>
-                <form class="subscribe-form">
-                    <label>
-                        Электронная почта
-                        <input type="email" placeholder="Ваша электронная почта">
-                        <span>Подписываясь, вы принимаете правила сервиса</span>
-                    </label>
-                </form>
+                <div class="bg-primary-dark text-white p-40">
+                    <div class="row align-items-center m-0">
+                        <div class="col">
+                            <h3>
+                                Хотите узнать больше?
+                                <br>
+                                Подпишитесь на обновления
+                            </h3>
+                        </div>
+                        <div class="col align-items-end">
+                            <form class="subscribe-form">
+                                <label for="subscribe-email" class="d-block mb-9 font-size-18">Электронная почта</label>
+                                <div class="d-flex">
+                                    <input
+                                    id="subscribe-email"
+                                    class="subscribe-input"
+                                    type="email"
+                                    name="email"
+                                    placeholder="Ваша электронная почта"
+                                    required>
+                                    <div class="btn-send btn-primary text-center"></div>
+                                </div>
+
+                                <p class="my-0 font-size-12">Подписываясь, вы принимаете <a href="#" class="text-white">правила сервиса</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-60">
+                    <div class="col text-center">
+                        <p>
+                            © 2021 Александр Манлриков
+                        </p>
+                        <p>
+                            По материалам статьи
+                            <a
+                            href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            >
+                            Yash Ranadive Cognitive Biases in Programming
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://ru.hexlet.io/" rel="noopener" target="_blank">Курсы программирования Hexlet</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
