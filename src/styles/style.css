@@ -210,6 +210,10 @@ body header {
   font-size: 18px;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .mb-9 {
   margin-bottom: 9px;
 }
@@ -289,4 +293,15 @@ body header {
 .card-body {
   margin: 0;
   padding: 0;
+}
+
+.video {
+  position: relative;
+  top: 200px;
+
+  margin-top: -170px;
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
