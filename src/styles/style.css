@@ -103,15 +103,17 @@ body header {
   display: flex;
   flex-wrap: wrap;
 
-  margin: 0 -15px;
-  padding: -10px 0;
+  margin: 0 -15px 20px;
+}
+
+.row:last-of-type {
+  margin-bottom: 0;
 }
 
 .col {
   flex-basis: 0;
   flex-grow: 1;
 
-  margin: 10px 0;
   padding: 0 15px;
 }
 
@@ -210,6 +212,11 @@ body header {
   font-size: 18px;
 }
 
+.font-size-52 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -268,10 +275,15 @@ body header {
 }
 
 .card-item {
-  max-width: 350px;
-  min-height: 323px;
+  display: block;
+  box-sizing: border-box;
+
+  height: 100%;
 
   padding: 24px;
+
+  color: inherit;
+  text-decoration: inherit;
 
   background-color: var(--light);
 }
@@ -282,7 +294,7 @@ body header {
 
   font-size: 64px;
   font-family: "Neucha", sans-serif;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .card-title {
