@@ -44,7 +44,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.h3,
+.h4 {
   margin: 0;
   padding: 0;
 
@@ -61,16 +63,22 @@ h2 {
   font-size: 60px;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 34px;
 }
 
-body header {
-  position: relative;
+h4,
+.h4 {
+  font-size: 24px;
 }
 
 .text-primary {
   color: var(--primary);
+}
+
+.text-dark-50 {
+  color: var(--dark-50);
 }
 
 .container {
@@ -225,12 +233,20 @@ body header {
   margin-bottom: 9px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .align-items-end {
   align-items: flex-end;
 }
 
 .align-items-center {
   align-items: center;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .subscribe-input {
@@ -316,4 +332,26 @@ body header {
 
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.manifest {
+  padding: 5px 10px;
+
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+
+  text-transform: uppercase;
+}
+
+.manifest-brown {
+  color: var(--white);
+
+  background-color: var(--brown);
+}
+
+.manifest-white {
+  color: var(--brown);
+
+  background-color: var(--white);
 }
