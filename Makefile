@@ -6,4 +6,4 @@ lint:
 	yarn stylelint ./src/styles/*.css
 
 deploy:
-	yarn surge ./src/
+	yarn surge --domain https://nunsez-layout-1.surge.sh ./src/
