@@ -6,4 +6,4 @@ lint:
 	yarn stylelint ./src/styles/*.css
 
 deploy:
-	npx surge ./src/
+	yarn surge ./src/
