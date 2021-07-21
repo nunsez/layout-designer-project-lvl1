@@ -1,0 +1,28 @@
+.subscribe-input {
+  flex-grow: 1;
+
+  padding: 15px;
+
+  border: none;
+}
+
+.subscribe-input::placeholder {
+  opacity: 0.2;
+}
+
+.btn-send {
+  width: 70px;
+  height: 50px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn-send::after {
+  display: block;
+
+  padding: 15px 0;
+
+  content: url("../images/send.svg");
+}

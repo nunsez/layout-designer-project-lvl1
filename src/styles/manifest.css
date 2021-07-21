@@ -1,0 +1,21 @@
+.manifest {
+  padding: 5px 10px;
+
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+
+  text-transform: uppercase;
+}
+
+.manifest-brown {
+  color: var(--white);
+
+  background-color: var(--brown);
+}
+
+.manifest-white {
+  color: var(--brown);
+
+  background-color: var(--white);
+}

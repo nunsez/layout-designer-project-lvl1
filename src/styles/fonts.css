@@ -1,0 +1,30 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url("../fonts/Neucha-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-52 {
+  font-size: 52px;
+  line-height: 1.2;
+}

@@ -1,0 +1,32 @@
+.card-item {
+  display: block;
+  box-sizing: border-box;
+
+  height: 100%;
+
+  padding: 24px;
+
+  color: inherit;
+  text-decoration: inherit;
+
+  background-color: var(--light);
+}
+
+.card-number {
+  margin: 0 0 40px;
+  padding: 0;
+
+  font-size: 64px;
+  font-family: "Neucha", sans-serif;
+  line-height: 1;
+}
+
+.card-title {
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.card-body {
+  margin: 0;
+  padding: 0;
+}
