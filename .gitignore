@@ -1,2 +1,4 @@
 /node_modules/
-.surgeignore
+Makefile
+package.json
+yarn-lock.json
